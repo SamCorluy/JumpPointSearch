@@ -13,7 +13,7 @@ this function requires 3 inputs:
 - the start node
 - the goal node
 
-The algorithm loops over all neighbors applying the jump algorithm, if it determines that a neighbor is a jump point, it adds this neighbor to the successorsList
+⋅⋅⋅The algorithm loops over all neighbors applying the jump algorithm, if it determines that a neighbor is a jump point, it adds this neighbor to the successorsList
     
 - An algorithm to jump:
 
@@ -23,4 +23,4 @@ this function requires 4 inputs:
 - the start node
 - the goal node
 
-a new node gets calculated by adding a direction to the initial node, if this node is an obstacle or not part of the grid, null will be returned, if this node is the goal node however, the goalnode will be returned. If neither of these are the case, the node's neighbors get checked to make sure it isn't a forced neighbor(a forced neighbor is directly linked to a blocked node), if it turns out to be a forced neighbor, the node gets returned. and finally, if the function still hasn't returned a value, the function will call itself, replacing the initial node with the calculated node
+⋅⋅⋅a new node gets calculated by adding a direction to the initial node, if this node is an obstacle or not part of the grid, null will be returned, if this node is the goal node however, the goalnode will be returned. If neither of these are the case, the node's neighbors get checked to make sure it isn't a forced neighbor(a forced neighbor is directly linked to a blocked node), if it turns out to be a forced neighbor, the node gets returned. and finally, if the function still hasn't returned a value, the function will call itself, replacing the initial node with the calculated node
