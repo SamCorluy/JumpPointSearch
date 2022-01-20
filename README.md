@@ -38,3 +38,7 @@ This optimization uses two new algorithms:
 the first algorithm is then used to select your next node instead of looking through adjacent nodes like A* does.
 ## Other A* optimizations?
 * Orthogonal jump point search
+## Implementation
+Since I already had to make an A* implementation in our school's framework, I decided to use that as a base. However, since I highly underestimated the work that goes into implementing such an algorithm, I sadly didn't have the time to complete it.
+## Conclusion
+All in all the JPS algorithm is a neat little optimization to the A* pathfinding system, wielding similar results at faster speeds. The drawback being of course that it relies on uniform-cost grids, if you would want to optimize your A* algorithm for any other grid you would need to find a different algorithm to use!
